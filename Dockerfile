@@ -8,7 +8,7 @@ COPY . /app
 
 ENV PIP_ROOT_USER_ACTION=ignore
 
-# RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt
 
 ENV FLASK_APP=index.py
 
